@@ -2,7 +2,7 @@
 // 10-27-22
 // Reverse It - Endpoint
 // Create a Reverse It WebAPI project that takes in a string variable via the URL and outputs the reverse
-// Peer reviewed by
+// Peer reviewed by: Jovann Contreras: The program runs with no errors, code is understandable and clean, I really like how Amar found a way to input something without having to call the route I thought it was really cool. Another thing I liked was how he go the original word to display and also displayed the reversed word.
 
 using System;
 using System.Collections.Generic;
