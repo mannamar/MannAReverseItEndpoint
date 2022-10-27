@@ -22,7 +22,7 @@ namespace MannAReverseItEndpoint.Controllers
       string words = "This is backwards.";
       char[] array = words.ToCharArray();
       Array.Reverse(array);
-      return new String(array);
+      return $"Original string:\n{words}\n\nReversed string:\n{String.Join("", array)}";
     }
 
     [HttpGet("{str}")]
@@ -30,7 +30,7 @@ namespace MannAReverseItEndpoint.Controllers
     {
       char[] array = str.ToCharArray();
       Array.Reverse(array);
-      return new String(array);
+      return $"Original string:\n{str}\n\nReversed string:\n{String.Join("", array)}";
     }
   }
 }
