@@ -1,7 +1,7 @@
 // Amardeep Mann
 // 10-27-22
 // Reverse It - Endpoint
-// Create a Reverse It WebAPI project that takes in a string variable via the URL
+// Create a Reverse It WebAPI project that takes in a string variable via the URL and outputs the reverse
 // Peer reviewed by
 
 using System;
